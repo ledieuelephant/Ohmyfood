@@ -1,0 +1,270 @@
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*font-family: 'Shrikhand', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body {
+    max-width: 100%;
+}
+
+.site-title {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.site-title h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 35px;
+}
+
+.search-town {
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    height: 50px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-town form input[type="text"] {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.reserv-menu {
+    background-color: #f6f6f6 ;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.reserv-menu h1 {
+    font-size: 20px;
+    font-weight: 900;
+    width: 60%;
+}
+
+.reserv-menu h2 {
+    font-size: 15px;
+    font-weight: 100;
+    width: 80%;
+}
+
+.reserv-menu button {
+    background: linear-gradient(to bottom right, #FF79DA ,#9356DC  );
+    color: white;
+    border: none;
+    height: 50px;
+    width: 220px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.fonctionnement {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 440px;
+}
+
+.fonctionnement h1 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.fonctionnement-card {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 75px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+    border-radius: 20px;
+}
+
+.fonctionnement-card:hover {
+    background-color: #f5edff;
+}
+
+.fonctionnement-card:hover svg {
+    fill: #9356DC;
+}
+
+.fonctionnement-card p {
+    height: 15px;
+    font-weight: 700;
+}
+
+.fonctionnement-card-number {
+    width: 25px;
+    height: 25px;
+    background-color: #9356DC;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    left: -10px;
+}
+
+.fonctionnement-card-number h6 {
+    text-align: center;
+}
+
+.fonctionnement-card svg {
+    margin-left: 40px;
+}
+
+.fonctionnement-card p {
+    margin-left: 30px;
+}
+
+.restaurants {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.restaurants a {
+    color: black;
+}
+
+.restaurants h1 {
+    width: 95%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.restaurants-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 95%;
+    margin: auto;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+
+.restaurants a:nth-child(5){
+    margin-bottom: 65px;
+}
+
+.restaurants-card img {
+    position: relative;
+    top: -100px;
+    left: -15px;
+    width: 105%;
+}
+
+.restaurants-card-body {
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurants-card-body-text {
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+.restaurants-card-body-text h2 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.restaurants-card-body-text h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.restaurants-card-body-heart svg {
+    margin-right: 20px;
+}
+
+.restaurants-card-body-fillheart svg {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.restaurants-card-body-fillheart {
+    display: none;
+}
+
+.restaurants-card-body-heart:hover + .restaurants-card-body-fillheart {
+    display: block;
+}
+
+.restaurants-card-body-heart:hover {
+    display: none;
+}
+
+.restaurants-card-new {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #99e2d0;
+    color: #39a98e;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+footer {
+    height: 200px;
+    background-color: #353535;
+    color: white;
+}
+
+footer h3 {
+    font-family: 'Shrikhand', cursive;
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer svg {
+    margin-right: 13px;
+    width: 15px;
+    height: 15px;
+    fill: white;
+}
+
+footer p {
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
