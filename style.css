@@ -15,6 +15,12 @@ body {
     height: 65px;
 }
 
+.arrow {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
 .site-title h1 {
     font-family: 'Shrikhand', cursive;
     font-size: 35px;
@@ -266,5 +272,124 @@ footer p {
     margin: auto;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
+}
+
+.menu {
+    background-color: #f6f6f6;
+}
+
+.menu-img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.menu-img img {
+    width: 100%;
+}
+
+.menu-name {
+    font-family: 'Shrikhand', cursive;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.menu-name h1 {
+    font-size: 25px;
+}
+
+.menu-bloc {
+    width: 95%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.menu-bloc-name {
+    font-weight: thin;
+    padding-bottom: 10px;
+}
+
+.border-green {
+    border-bottom: 3px solid #99e2d0;
+    padding-bottom: 5px;
+}
+
+.menu-bloc-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bloc-card:hover .menu-bloc-card-valid {
+    width: 60px;
+}
+
+.menu-bloc-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
+    padding-left: 12px;
+}
+
+.menu-bloc-card-body h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-bloc-card-body h3 {
+    font-size: 12px;
+}
+
+.menu-bloc-card-animate {
+    display: flex;
+}
+
+.menu-bloc-card-price {
+    padding-top: 45px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.menu-bloc-card-valid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 0px;
+    background-color: #99e2d0;
+    border-radius: 0px 20px 20px 0px;
+    transition: width 2s;
+}
+
+.menu-bloc-card-animate:hover .menu-bloc-card-valid {
+    width: 60px;
+}
+
+.menu-commande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-family: "Roboto", sans-serif;
+}
+
+.menu-commande button{
+    background: linear-gradient(to bottom right, #FF79DA ,#9356DC  );
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    font-size: 15px;
 }
 
