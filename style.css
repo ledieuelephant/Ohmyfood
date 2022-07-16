@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 body {
-    max-width: 425px;
+    max-width: 100%;
 }
 
 .site-title {
