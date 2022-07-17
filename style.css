@@ -188,7 +188,6 @@ body {
 
 .restaurants-card img {
     position: relative;
-    top: -100px;
     left: -15px;
     width: 105%;
 }
