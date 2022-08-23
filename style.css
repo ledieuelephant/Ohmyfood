@@ -106,7 +106,7 @@ header {
     height: 440px;
 }
 
-.fonctionnement h1 {
+.fonctionnement h2 {
     font-size: 20px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
@@ -179,7 +179,8 @@ header {
     color: black;
 }
 
-.restaurants h1 {
+.restaurants #restaurants-titre {
+    text-align: center;
     width: 90%;
     margin: auto;
     font-size: 20px;
@@ -409,6 +410,10 @@ footer p {
     display: none;
 }
 
+.menu-title {
+    font-size: 25px;
+}
+
 .menu-bloc {
     width: 95%;
     margin: auto;
@@ -547,15 +552,28 @@ footer p {
     justify-content: center;
     line-height: 25px;
     padding-left: 12px;
+    width: 90%;
+    transition: width 2s;
+}
+
+.menu-bloc-card:hover .menu-bloc-card-body {
+    width: 67%;
 }
 
 .menu-bloc-card-body h2 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .menu-bloc-card-body h3 {
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .menu-bloc-card-animate {
@@ -565,7 +583,7 @@ footer p {
 .menu-bloc-card-price {
     padding-top: 45px;
     padding-right: 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .menu-bloc-card-valid {
