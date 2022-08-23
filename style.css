@@ -248,13 +248,13 @@ header {
     height: 100%;
 }
 
-.svg1 {
+.restaurants-card-body-heart .svg1 {
     position: absolute;
     top: 33%;
     right: 50%;
 }
 
-.svg2 {
+.restaurants-card-body-heart .svg2 {
     position: absolute;
     top: 33%;
     right: 50%;
@@ -398,16 +398,26 @@ footer p {
     font-size: 25px;
 }
 
-.menu-heart:hover + .menu-fillheart {
-    display: flex;
+.menu-heart {
+    position: relative;
 }
 
-.menu-heart:hover {
-    display: none;
+.menu-heart .svg2 {
+    opacity: 0;
+    position: absolute;
+    right: 50%;
 }
 
-.menu-fillheart {
-    display: none;
+.menu-heart:hover .svg1 {
+    opacity: 0;
+    position: absolute;
+    right: 50%;
+}
+
+.menu-heart:hover .svg2 {
+    animation-duration: 1s;
+    animation-name: heartfill;
+    animation-fill-mode: forwards;
 }
 
 .menu-title {
