@@ -371,7 +371,7 @@ footer p {
 }
 
 .menu-img {
-    height: 250px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -648,6 +648,16 @@ footer p {
     .restaurants-card img {
         top: -250px;
     }
+
+    .menu-img {
+        height: 400px;
+    }
+
+    .menu-img img {
+        width: 100%;
+        margin-left: 90px;
+        padding-bottom: 90px;
+    }
 }
 
 @media screen and (min-width : 992px) {
@@ -679,5 +689,9 @@ footer p {
     .menu-bloc {
         width: 900px;
         margin-top: 30px;
+    }
+
+    .menu-img {
+        height: 600px;
     }
 }
