@@ -538,7 +538,7 @@ footer p {
 
 
 .menu-bloc-card:hover .menu-bloc-card-valid {
-    width: 60px;
+    width: 50px;
 }
 
 .menu-bloc-card:hover svg {
@@ -549,7 +549,7 @@ footer p {
 
 @keyframes validRotate {
     0% {
-        transform: rotate(45deg);
+        transform: rotate(0deg);
     }
     100%{
         transform: rotate(360deg);
@@ -611,7 +611,7 @@ footer p {
 }
 
 .menu-bloc-card-animate:hover svg {
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-name: rotatesvg;
 }
 
