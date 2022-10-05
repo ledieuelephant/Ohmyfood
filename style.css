@@ -340,6 +340,8 @@ footer {
     height: 200px;
     background-color: #353535;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 footer h3 {
@@ -357,11 +359,14 @@ footer svg {
     fill: white;
 }
 
-footer p {
+footer a {
+    display: block;
+    color: white;
     width: 90%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
+    text-decoration: none;
 }
 
 .menu {
